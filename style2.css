@@ -1,0 +1,27 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(26,70,116);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(110,160,46);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.renderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
